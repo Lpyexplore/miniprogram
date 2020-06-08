@@ -1,0 +1,6 @@
+/* pages/search/search.wxss */
+.bg{
+  background: white !important;
+  border-bottom: 1px solid #e1e1e1;
+  height: 100rpx !important;
+}

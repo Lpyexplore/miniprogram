@@ -1,2 +1,3 @@
 <!--index.wxml-->
 
+<my-swiper images="{{banners}}"/>

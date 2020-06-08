@@ -1,0 +1,11 @@
+<!--pages/category/childrenCpn/tab-control/tab-control.wxml-->
+<view class="container">
+  <view  wx:for="{{tabs}}" wx:key="index" class="content">
+  
+    <view class="img">
+      <image src="{{item.img}}" mode="heightFix"/>
+    </view>
+
+    <view class="title">{{item.title}}</view>
+  </view>
+</view>

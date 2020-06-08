@@ -1,0 +1,12 @@
+<!--components/my-searchbar/my-searchbar.wxml-->
+<view class="container background">
+  <view class="icon_box">
+    <image src="./assets/search.png" class="icon" mode="heightFix"></image>
+  </view>
+  
+  <input placeholder="搜索"
+         class="input_box"
+         confirm-type="search"
+         bind:tap="inputClick">
+  </input>
+</view>

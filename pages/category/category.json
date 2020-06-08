@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "my-searchbar": "/components/my-searchbar/my-searchbar",
+    "tab-control": "./childrenCpn/tab-control/tab-control",
+    "recommend-list": "./childrenCpn/recommend-list/recommend-list",
+    "collection-list": "./childrenCpn/collection-list/collection-list",
+    "comment-list": "./childrenCpn/comment-list/comment-list"
+  },
+  "navigationBarTitleText": "工具列表"
+}

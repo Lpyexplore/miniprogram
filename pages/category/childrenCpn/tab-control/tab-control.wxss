@@ -1,0 +1,27 @@
+.container{
+  height: 180rpx;
+  display: flex;
+  margin-bottom: 70rpx;
+}
+.content{
+  flex: 1;
+}
+.content .img{
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.content .img image{
+  height: 50%;
+}
+.content .title{
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #000;
+}

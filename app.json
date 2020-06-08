@@ -1,13 +1,44 @@
 {
-  "pages":[
-    "pages/index/index"
-
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/advice/advice",
+    "pages/profile/profile",
+    "pages/search/search"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
-  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3BC965",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#3BC965",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/tab-bar/index.png",
+        "selectedIconPath": "assets/tab-bar/index_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/tab-bar/category.png",
+        "selectedIconPath": "assets/tab-bar/category_active.png"
+      },
+      {
+        "pagePath": "pages/advice/advice",
+        "text": "建议",
+        "iconPath": "assets/tab-bar/advice.png",
+        "selectedIconPath": "assets/tab-bar/advice_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "assets/tab-bar/profile.png",
+        "selectedIconPath": "assets/tab-bar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap1.json"
 }

@@ -1,0 +1,29 @@
+/* components/my-searchbar/my-searchbar.wxss */
+.container{
+  background: #3BC965;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_box{
+  background: white;
+  width: 80%;
+  height: 80rpx;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.icon_box{
+  width: 10%;
+  height: 80rpx;
+  background: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  height: 50rpx;
+}
+
