@@ -1,0 +1,43 @@
+<!--tools/calculator/calculator.wxml-->
+<view>
+  <view class="screen">
+    <view class="top">{{top}}</view>
+    <view class="bottom">{{bottom}}</view>
+  </view>
+  <view class="btns" bind:tap='btnClick'>
+    <view class="line">
+      <view class="btn" data-symbol="--"></view>
+      <view class="btn" data-symbol="C">C</view>
+      <view class="btn" data-symbol="left">(</view>
+      <view class="btn" data-symbol="right">)</view>
+      <view class="btn" data-symbol="%">%</view>
+    </view>
+    <view class="line">
+      <view class="btn" data-symbol="7">7</view>
+      <view class="btn" data-symbol="8">8</view>
+      <view class="btn"  data-symbol="9">9</view>
+      <view class="btn" data-symbol="+">+</view>
+      <view class="btn" data-symbol="-">-</view>
+    </view>
+    <view class="line">
+      <view class="btn" data-symbol="4">4</view>
+      <view class="btn" data-symbol="5">5</view>
+      <view class="btn" data-symbol="6">6</view>
+      <view class="btn" data-symbol="*">*</view>
+      <view class="btn" data-symbol="/">/</view>
+    </view>
+    <view class="line">
+      <view class="btn" data-symbol="1">1</view>
+      <view class="btn" data-symbol="2">2</view>
+      <view class="btn" data-symbol="3">3</view>
+      <view class="btn" data-symbol="x²">x²</view>
+      <view class="btn" data-symbol="^">^</view>
+    </view>
+    <view class="line line-last">
+      <view class="btn" data-symbol="π">π</view>
+      <view class="btn" data-symbol="0">0</view>
+      <view class="btn" data-symbol=".">.</view>
+      <view class="btn dobule" data-symbol="=">=</view>
+    </view>
+  </view>
+</view>

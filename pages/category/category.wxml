@@ -7,13 +7,15 @@
 
   <view class="content">
     <!-- 3. 控制栏自定义组件 -->
-    <tab-control tabs="{{tabs}}"/>
+    <tab-control tabs="{{tabs}}" bind:tabClick="tabClick"/>
     <!-- 4. 展示列表的标题 -->
     <view class="list_title">
-      <text class="title">热门推荐</text>
+      <text class="title">{{tabs[current_tab].title}}</text>
     </view>
     <!-- 5. 展示列表内容 -->
-    
+    <recommend-list wx:if="{{current_tab === 0}}"/>
+    <collection-list wx:elif="{{current_tab === 1}}"/>
+    <comment-list wx:elif="{{current_tab === 2}}"/>
   </view>
 </view>
 

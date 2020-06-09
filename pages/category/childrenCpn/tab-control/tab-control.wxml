@@ -3,9 +3,9 @@
   <view  wx:for="{{tabs}}" wx:key="index" class="content">
   
     <view class="img">
-      <image src="{{item.img}}" mode="heightFix"/>
+      <image src="{{item.img}}" mode="heightFix" bind:tap="tabClick" data-index="{{index}}"/>
     </view>
 
-    <view class="title">{{item.title}}</view>
+    <view class="title" bind:tap="tabClick" data-index="{{index}}">{{item.title}}</view>
   </view>
 </view>

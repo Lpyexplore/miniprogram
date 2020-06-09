@@ -1,0 +1,42 @@
+.screen{
+  height: 30vh;
+  background: linear-gradient(to bottom right, #F0FF00, #58CFFB);
+}
+.top{
+  text-align: right;
+  height: 50%;
+  line-height: 150rpx;
+}
+.bottom{
+  text-align: right;
+  height: 50%;
+  font-size: 80rpx;
+  line-height: 150rpx;
+}
+.btns{
+  height: 70vh;
+}
+.line{
+  display: flex;
+  justify-content: space-between;
+  height: 18%;
+  margin-bottom: 20rpx;
+}
+.line-last{
+  margin-bottom: 0;
+}
+.btn{
+  width: 18%;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64rpx;
+  border-radius: 7px;
+}
+.dobule{
+  width: 288.919rpx;
+}
+.active{
+  background: linear-gradient(to bottom right, #F0FF00, #58CFFB);
+}

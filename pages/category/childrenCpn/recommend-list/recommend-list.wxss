@@ -1,1 +1,15 @@
-/* pages/category/childrenCpn/recommend-list/recommend-list.wxss */
+.each{
+  margin-top: 20rpx;
+  width: 345rpx;
+  height: 345rpx;
+  border-radius: 10px;
+  background: rgba(249,218,191,.3);
+}
+.right{
+  float: right;
+  margin-right: 20rpx;
+}
+.left{
+  float: left;
+  margin-left: 20rpx;
+}

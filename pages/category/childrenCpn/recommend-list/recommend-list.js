@@ -4,7 +4,10 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    recommends: {
+      type: Array,
+      value: [1,2,3,4,5]
+    }
   },
 
   /**

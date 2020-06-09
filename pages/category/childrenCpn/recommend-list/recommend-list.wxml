@@ -1,2 +1,6 @@
 <!--pages/category/childrenCpn/recommend-list/recommend-list.wxml-->
-<text>pages/category/childrenCpn/recommend-list/recommend-list.wxml</text>
+<view>
+  <view wx:for="{{recommends}}" wx:key="index" class="each {{index % 2? 'right':'left'}}">
+    
+  </view>
+</view>
